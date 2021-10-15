@@ -5,3 +5,7 @@ create table member
     name varchar(255),
     primary key (id)
 );
+
+insert into member(name) values('안녕');
+
+select * from member;
